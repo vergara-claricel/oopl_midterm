@@ -24,7 +24,7 @@ if(isset($_POST['placeorder'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery method</title>
+    <title>Order Summary</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
 
 
