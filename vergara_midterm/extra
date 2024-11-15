@@ -1,0 +1,26 @@
+        <!-- <div class="header2">
+            <input type="checkbox" class="alertCheckbox" autocomplete="off" />
+            <?php if (!empty($alertMessage)): ?>
+        <div class="alert info" style="display:block;"> <!-- Show alert if there is a message -->
+            <span class="alertClose">X</span>
+            <span class="alertText">
+                <?php echo $alertMessage; ?>
+            </span>
+        </div>
+        <?php endif; ?> -->
+
+        // public function getDeliveryTime(){
+    //     echo "Bike Delivery - ETA: $this->deliveryTime <br>";
+    //     echo '<br>';
+    //     echo '<br>';
+    // }
+
+    // function checkExisting($orderid, $item_name, $quantity){
+    //     $check = $this->db->query("SELECT * from `cart` where order_id = '$orderid' and item_name = '$item_name'");
+    //     if($check->num_rows > 0){
+    //         $exist = $check->mysqli_fetch_assoc();
+    //         $newquan = $exist['quantity'] + $quantity;
+    //         $updatedquan = $this->db->query("UPDATE `cart` SET `quantity` = '$newquan' WHERE `order_id` = '$orderid' AND `name` = '$item_name'");
+    //      }
+    //     return $updatedquan;
+    // }
